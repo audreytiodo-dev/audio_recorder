@@ -1,0 +1,19 @@
+# Credentials - never commit
+.env
+
+# Downloaded call recordings and their metadata (personal data)
+recordings/
+*.wav
+*.mp3
+*.part
+manifest.json
+
+# Duplicate-cleanup artefacts
+dedupe_plan.txt
+_doublons_quarantine/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
